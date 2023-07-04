@@ -1,0 +1,20 @@
+2022-06-10T12:58:01+00:00 CRITICAL Uncaught Error: Class 'WC_My_Custom_Plugin_Integration' not found in C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-wc-integrations.php:41
+Stack trace:
+#0 C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-woocommerce.php(624): WC_Integrations->__construct()
+#1 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(307): WooCommerce->init('')
+#2 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\Users\User1\Local Sites\fictional-university\app\public\wp-settings.php(598): do_action('init')
+#5 C:\Users\User1\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\User1\\...')
+#6 C:\Users\User1\Local Sites\fictional-university\app\public in C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-wc-integrations.php on line 41
+
+2022-06-10T12:58:02+00:00 CRITICAL Uncaught Error: Class 'WC_My_Custom_Plugin_Integration' not found in C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-wc-integrations.php:41
+Stack trace:
+#0 C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-woocommerce.php(624): WC_Integrations->__construct()
+#1 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(307): WooCommerce->init('')
+#2 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\User1\Local Sites\fictional-university\app\public\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\Users\User1\Local Sites\fictional-university\app\public\wp-settings.php(598): do_action('init')
+#5 C:\Users\User1\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\User1\\...')
+#6 C:\Users\User1\Local Sites\fictional-university\app\public in C:\Users\User1\Local Sites\fictional-university\app\public\wp-content\plugins\woocommerce\includes\class-wc-integrations.php on line 41
+
